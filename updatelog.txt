@@ -1,0 +1,18 @@
+1.0
+完成基本switches、LED、七段顯示器以及兩個按鈕的PIN腳對應。
+
+1.1
+新增seg7的設定按鈕功能：設定後顯示綠底白字
+補全switches的欄位清空按鈕功能
+
+Done:
+
+BUGs:
+clear variables after setting seg7 will cause not restore the color of setting button.
+
+To be implement:
+clock not yet implemented (Pin11)
+Use Hover on different panel to display corresponding description
+
+Already has a frame:
+Use tab to contain different component like switches or leds...
